@@ -1,0 +1,43 @@
+public class Main {
+    public static void main(String[] args) {
+
+        // String: Used for text such as a person's full name
+        String fullName = "Elvis Kwapong";
+
+        // int: Used for whole numbers without decimals such as age
+        int age = 20;
+
+        // char: Used for a single character such as gender initial
+        char gender = 'M';
+
+        // double: Used for decimal numbers such as height
+        double height = 1.75;
+
+        // float: Used for decimal numbers such as weight
+        float weight = 70.5f;
+
+        // boolean: Used for true/false values such as student status
+        boolean isStudent = true;
+
+        // long: Used for large whole numbers such as phone numbers
+        long phoneNumber = 233123456789L;
+
+        // String: Used for text representing academic level
+        String gradeLevel = "Level 200";
+
+        // String: Used for text such as program of study
+        String course = "Computer Networking";
+
+        // Displaying the information
+        System.out.println("===== PERSONAL INFORMATION =====");
+        System.out.println("Full Name: " + fullName);
+        System.out.println("Age: " + age);
+        System.out.println("Gender: " + gender);
+        System.out.println("Height: " + height + " meters");
+        System.out.println("Weight: " + weight + " kg");
+        System.out.println("Student Status: " + isStudent);
+        System.out.println("Phone Number: " + phoneNumber);
+        System.out.println("Grade/Level: " + gradeLevel);
+        System.out.println("Course: " + course);
+    }
+}
